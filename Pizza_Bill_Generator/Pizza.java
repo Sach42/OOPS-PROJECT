@@ -1,15 +1,15 @@
-package recursion.pizza_bill_generator;
+package Pizza_Bill_Generator;
 
 public class Pizza {
     protected int price;
-    private boolean isVeg;      
+    private boolean isVeg;     
     private int basePrice;
 
     private int extraToppingCost = 99;
     private int extraCheeseCost = 79;
     private int packingCharges = 39;
 
-    private boolean extraToppingAdded;     
+    private boolean extraToppingAdded;      
     private boolean extraCheeseAdded;
     private boolean foodPacked;
 
@@ -82,7 +82,7 @@ public class Pizza {
     }
 
     public double calculateTax(){
-        //12 % 
+        
         double tax = (0.12 * price);
         return tax;
     }
@@ -94,5 +94,3 @@ public class Pizza {
         }
     }
 }
-
-

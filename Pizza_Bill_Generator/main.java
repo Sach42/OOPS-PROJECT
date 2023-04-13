@@ -1,4 +1,4 @@
-package recursion.pizza_bill_generator;
+package Pizza_Bill_Generator;
 
 public class main {
     public static void main(String[] args) {
